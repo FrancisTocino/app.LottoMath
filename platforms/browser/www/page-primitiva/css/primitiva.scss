@@ -1,0 +1,22 @@
+//---------------------------- IMPORTS -----------------
+// --------------------------- TYPOGRAFIA --------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Lato');
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+@import '_config.scss';
+
+
+// ELEMENTOS CON Media Querys  --------------------------*/
+
+@media screen and (max-width: 544px){
+	@import '_pr-mobile.scss';
+}
+
+@media screen and (min-width: 544px){
+	@import '_pr-tablet.scss';
+}
+
+@media screen and (min-width: 768px){
+	@import '_pr-xtablet.scss';
+}
+    

@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGI,IAAI;EACA,WAAW,EAAG,IAAI;EAClB,KAAK,EAAC,IAAI",
+"sources": ["../sass/xmobilesmall.scss"],
+"names": [],
+"file": "xmobilesmall.css"
+}

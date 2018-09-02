@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>LottoMath</name>
+    <description>Combinaciones ganadoras de los diferentes juegos de loterías mediante el cáculo estadístico</description>
+    <author email="francistosan.pro@gmail.com" href="http://neuronkey.rf.gd/">NEURON KEY</author>
+    <content src="index.html" />
+    <platform name="android">
+        <icon density="ldpi" src="iconset/tunedlotto-logo-ldpi23.png" />
+        <icon density="mdpi" src="iconset/tunedlotto-logo-mdpi23.png" />
+        <icon density="hdpi" src="iconset/tunedlotto-logo-hdpi23.png" />
+        <icon density="xhdpi" src="iconset/tunedlotto-logo-xhdpi23.png" />
+        <icon density="xxhdpi" src="iconset/tunedlotto-logo-xxhdpi23.png" />
+        <icon density="xxxhdpi" src="iconset/tunedlotto-logo-xxxhdpi23.png" />
+    </platform>
+    <preference name="orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashShowOnlyFirstTime" value="true" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <icon qualifier="ldpi" src="iconset/tunedlotto-logo-xxxhdpi23.png" />
+        <allow-intent href="market:*" />
+    </platform>
+    <splash platform="android" qualifier="xxxhdpi" src="splash26.png" />
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-crosswalk-webview" spec="^2.3.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="1.7.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="4.1.0" />
+    <plugin name="cordova-plugin-whitelist" spec="1.3.3" />
+    <plugin name="com.admob.plugin" spec="^5.5.0" />
+</widget>

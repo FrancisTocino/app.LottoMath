@@ -1,0 +1,12 @@
+
+tunedlotto-logo-ldpi.png 36*36
+
+tunedlotto-logo-mdpi.png  48*48
+
+tunedlotto-logo-hdpi.png  72*72
+ 
+tunedlotto-logo-xhdpi.png  96*96
+
+tunedlotto-logo-xxhdpi.png 144*144
+
+tunedlotto-logo-xxxhdpi.png 192*192

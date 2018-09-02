@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Lato");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+.help-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 13px; }
+
+@media screen and (max-width: 544px) {
+  /****************/
+  /*   HEADER     */
+  /****************/
+  #header {
+    height: 60px;
+    font-size: 100%;
+    background: #A80201;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  #header span {
+    margin: 5px 5px 5px 5px; }
+
+  #header a {
+    text-align: right;
+    text-decoration: none;
+    color: white; }
+
+  #header a:hover {
+    text-decoration: none;
+    color: white; }
+
+  /***************/
+  /*   SIDEBAR   */
+  /***************/
+  .logo-neuronKey {
+    position: relative;
+    left: 140px;
+    height: 40px; }
+
+  /**********/
+  /*  BODY  */
+  /*********/
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato;
+    width: 100%;
+    overflow-x: hidden;
+    color: black; }
+
+  .container-principal {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 90%; }
+
+  .separador-vacio {
+    height: 70px; }
+
+  /*************/
+  /*    BOLA   */
+  /*************/
+  .bola {
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    padding-top: 12px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 2px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #397a34;
+    transition: all .2s ease-in-out;
+    background-image: radial-gradient(circle, white, #C2C1BD); }
+
+  .bola:hover {
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transform: scale(2); }
+
+  /*********************/
+  /*    BOX-RESULTADO  */
+  /*********************/
+  .border-resultado {
+    height: 100%;
+    display: grid;
+    border-radius: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #a80201; }
+
+  .box-resultado {
+    /* thing to center */
+    margin: auto; }
+
+  /*********************/
+  /*    BOTONES        */
+  /*********************/
+  .botones {
+    color: #fff;
+    background-color: #A80201;
+    border: 0px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+
+  .botones:hover {
+    background-color: #641313; }
+
+  .fixed-bottom {
+    position: fixed;
+    bottom: 10%; }
+
+  .margin-up-bottom {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  /*********************/
+  /*    GRAFICAS       */
+  /*********************/
+  .canvas-js {
+    margin-bottom: 100px; }
+
+  .canvas-js-bis {
+    margin-bottom: 50px; }
+
+  .separador_70 {
+    height: 70px; }
+
+  .logo_present {
+    width: 90%;
+    height: 90%; } }
+@media screen and (min-width: 544px) {
+  /****************/
+  /*   HEADER     */
+  /****************/
+  #header {
+    height: 60px;
+    font-size: 20px;
+    background: #A80201;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  #header span {
+    margin: 5px 5px 5px 5px; }
+
+  #header a {
+    text-align: right;
+    text-decoration: none;
+    color: white; }
+
+  #header a:hover {
+    text-decoration: none;
+    color: white; }
+
+  /***************/
+  /*   SIDEBAR   */
+  /***************/
+  .logo-neuronKey {
+    position: relative;
+    left: 140px;
+    height: 40px; }
+
+  /**********/
+  /*  BODY  */
+  /*********/
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato;
+    width: 100%;
+    overflow-x: hidden;
+    color: black; }
+
+  .container-principal {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 90%; }
+
+  .separador-vacio {
+    height: 70px; }
+
+  /*************/
+  /*    BOLA   */
+  /*************/
+  .bola {
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    padding-top: 12px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 2px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #397a34;
+    transition: all .2s ease-in-out;
+    background-image: radial-gradient(circle, white, #C2C1BD); }
+
+  .bola:hover {
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transform: scale(2); }
+
+  /*********************/
+  /*    BOX-RESULTADO  */
+  /*********************/
+  .border-resultado {
+    height: 100%;
+    display: grid;
+    border-radius: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #a80201; }
+
+  .box-resultado {
+    /* thing to center */
+    margin: auto; }
+
+  /*********************/
+  /*    BOTONES        */
+  /*********************/
+  .botones {
+    color: #fff;
+    background-color: #A80201;
+    border: 0px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+
+  .botones:hover {
+    background-color: #641313; }
+
+  .fixed-bottom {
+    position: fixed;
+    bottom: 10%; }
+
+  .margin-up-bottom {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  /*********************/
+  /*    GRAFICAS       */
+  /*********************/
+  .canvas-js {
+    margin-bottom: 100px; }
+
+  .canvas-js-bis {
+    margin-bottom: 50px; }
+
+  .separador_70 {
+    height: 70px; }
+
+  .logo_present {
+    width: 90%;
+    height: 90%; } }
+@media screen and (min-width: 768px) {
+  /****************/
+  /*   HEADER     */
+  /****************/
+  #header {
+    height: 60px;
+    font-size: 20px;
+    background: #A80201;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  #header span {
+    margin: 5px 5px 5px 5px; }
+
+  #header a {
+    text-align: right;
+    text-decoration: none;
+    color: white; }
+
+  #header a:hover {
+    text-decoration: none;
+    color: white; }
+
+  /***************/
+  /*   SIDEBAR   */
+  /***************/
+  .logo-neuronKey {
+    position: relative;
+    left: 140px;
+    height: 40px; }
+
+  /**********/
+  /*  BODY  */
+  /*********/
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Lato;
+    width: 100%;
+    overflow-x: hidden;
+    color: black; }
+
+  .container-principal {
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 90%; }
+
+  .separador-vacio {
+    height: 70px; }
+
+  /*************/
+  /*    BOLA   */
+  /*************/
+  .bola {
+    height: 2em;
+    width: 2em;
+    display: inline-block;
+    padding-top: 12px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin: 2px;
+    font-size: 24px;
+    font-weight: bolder;
+    color: #397a34;
+    transition: all .2s ease-in-out;
+    background-image: radial-gradient(circle, white, #C2C1BD); }
+
+  .bola:hover {
+    -webkit-transition: background-color 2s ease-out;
+    -moz-transition: background-color 2s ease-out;
+    -o-transition: background-color 2s ease-out;
+    transform: scale(2); }
+
+  /*********************/
+  /*    BOX-RESULTADO  */
+  /*********************/
+  .border-resultado {
+    height: 100%;
+    display: grid;
+    border-radius: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: #a80201; }
+
+  .box-resultado {
+    /* thing to center */
+    margin: auto; }
+
+  /*********************/
+  /*    BOTONES        */
+  /*********************/
+  .botones {
+    color: #fff;
+    background-color: #A80201;
+    border: 0px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%; }
+
+  .botones:hover {
+    background-color: #641313; }
+
+  .fixed-bottom {
+    position: fixed;
+    bottom: 10%; }
+
+  .margin-up-bottom {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+
+  /*********************/
+  /*    GRAFICAS       */
+  /*********************/
+  .canvas-js {
+    margin-bottom: 100px; }
+
+  .canvas-js-bis {
+    margin-bottom: 50px; }
+
+  .separador_70 {
+    height: 70px; }
+
+  .logo_present {
+    width: 90%;
+    height: 90%; } }
+
+/*# sourceMappingURL=bonoloto.css.map */

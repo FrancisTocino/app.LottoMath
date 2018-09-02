@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet"  href="../shared/css/simple-sidebar.css">
+    <link rel="stylesheet"  href="css/home.css">
+    <link rel="stylesheet"  href="../shared/js/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+
+ 
+    <script src="../shared/js/jquery-1.11.3.min.js"></script>
+    <script src="../shared/js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
+    <title>LOTO-MATH</title>
+
+</head>
+<body>
+
+ 
+ <div id="header" class="navbar-fixed-top container-fluid">
+    <span><a href="#menu-toggle" id="menu-toggle" class="glyphicon glyphicon-menu-hamburger"></a></span>
+    <span>LOTO-MATH 2.0</span>
+    <span><a href="#" id="btn_refresh" class="glyphicon glyphicon-refresh pull-right"></a></span>
+  </div>
+  
+<!-- Menu Lateral -->
+<div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav side-nav-bar">
+                <li style="margin-top:90px">
+                    <a target="_self" href="../page-primitiva/primitiva.html">Lotería Primitiva</a>
+                </li>
+                <li>
+                    <a target="_self" href="../page-bonoloto/bonoloto.html">Bonoloto</a>
+                </li>
+                <li>
+                    <a target="_self" href="../page-euromillones/euromillones.html">Euromillones</a>
+                </li>
+                <li>
+                    <a target="_self" href="../page-elgordo/elgordo.html">El Gordo de la Primitiva</a>
+                </li>
+            </ul>
+            <div class="sidebar-footer">
+                    <a  href="../page-ayuda/ayuda.html">
+                         <img class="help-icon" src="images/helpiconWhite.png">
+                    </a>
+                    <a  href="#" onclick="window.open('http://neuronkey.rf.gd/', '_system');">
+                      <img class="logo-neuronKey" src="images/icon_neuronkey_negative.svg">
+                    </a>
+            </div>
+            
+        </div>
+</div>    <!-- /#sidebar-wrapper -->
+
+
+<!-- Separador de la cabecera -->
+<div class="container separador-vacio" ></div>
+
+
+
+<!-- Primera Fila con dos Columnas -->
+<div id="menu" class="container">  
+
+    <div class="card">
+            <a target="_self" href="../page-primitiva/primitiva.html">
+                    <img class="logo_present" src="images/primitiva200x200.png" alt="Loteria Primitiva">
+            </a>
+    </div>
+
+    <div class="card">
+            <a target="_self" href="../page-bonoloto/bonoloto.html">    
+                <img class="logo_present" src="images/bonoloto-logo200x200.gif" alt="Bonoloto">
+            </a>
+    </div> 
+
+    <div class="card">
+            <a target="_self" href="../page-euromillones/euromillones.html">
+                <img class="logo_present" src="images/euromillones200x200.jpeg" alt="Euromillones">
+          </a>
+    </div>
+    
+    <div class="card">
+            <a target="_self" href="../page-elgordo/elgordo.html">
+                <img class="logo_present" src="images/el-gordo-200x200.png" alt="EL Gordo de la Primitiva">
+            </a>
+    </div>
+</div>
+
+
+
+
+<!-- Menu Toggle Script -->
+<script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+    
+    function onDeviceReady() {
+        window.open = cordova.InAppBrowser.open;
+    };
+
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    $("#btn_refresh").click(function(e) {
+        e.preventDefault();
+        location.reload(true);
+    });
+
+</script>
+
+
+
+</body></html>

@@ -1,0 +1,12 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "LottoMath",
+  "short_name": "LottoMath",
+  "version": "io.cordova.hellocordova",
+  "description": "Combinaciones ganadoras de los diferentes juegos de loterías mediante el cáculo estadístico",
+  "author": "NEURON KEY",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}

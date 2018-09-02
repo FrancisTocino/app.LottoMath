@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Lato");
+@import url("https://fonts.googleapis.com/css?family=Lora");
+@media screen and (max-width: 544px) {
+  #header {
+    height: 70px;
+    font-size: 20px;
+    background: #A80201;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  #header span {
+    margin: 5px 5px 5px 5px; }
+
+  #header a {
+    text-decoration: none;
+    color: white; }
+
+  #header a:hover {
+    text-decoration: none;
+    color: white; }
+
+  body {
+    font-family: Lato;
+    width: 100%;
+    overflow-x: hidden;
+    color: black; }
+
+  .bola {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+    padding-top: 4px;
+    background-color: #f8f2f2;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.19); }
+
+  .botones {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px; }
+
+  .logo-rotate {
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-left: 50px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out; }
+
+  .logo-rotate:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  #resultado_eu {
+    font-size: 16px; }
+
+  .separador-vacio {
+    height: 70px; }
+
+  .canvas-js {
+    margin-bottom: 100px; }
+
+  .canvas-js-bis {
+    margin-bottom: 50px; }
+
+  .separador_70 {
+    height: 70px; }
+
+  .logo_present {
+    width: 90%;
+    height: 90%; }
+
+  .fixed-bottom {
+    position: fixed;
+    bottom: 10%; }
+
+  .margin-up-bottom {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  .border-resultado {
+    border-radius: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: green;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.19); }
+
+  .pie_pagina {
+    background-color: #C5C9B3;
+    height: 40px; }
+
+  .pie_pagina p {
+    position: relative;
+    top: 35%; } }
+@media screen and (min-width: 544px) {
+  #header {
+    height: 70px;
+    font-size: 25px;
+    background: #A80201;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  #header span {
+    margin: 5px 5px 5px 5px; }
+
+  #wrapper.toggled #sidebar-wrapper {
+    width: 310px; }
+
+  .sidebar-nav li a {
+    font-size: 21px; }
+
+  #header a {
+    text-decoration: none;
+    color: white;
+    float: left; }
+
+  #header a:hover {
+    text-decoration: none;
+    color: white; }
+
+  body {
+    font-family: Lato;
+    width: 100%;
+    overflow-x: hidden;
+    color: black; }
+
+  .bola {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+    padding-top: 4px;
+    background-color: #f8f2f2;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.19); }
+
+  .botones {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px; }
+
+  .logo-rotate {
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-left: 50px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out; }
+
+  .logo-rotate:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  .separador-vacio {
+    height: 70px; }
+
+  .canvas-js {
+    margin-bottom: 100px; }
+
+  .canvas-js-bis {
+    margin-bottom: 50px; }
+
+  .separador_70 {
+    height: 70px; }
+
+  .logo_present {
+    width: 90%;
+    height: 90%; }
+
+  .fixed-bottom {
+    position: absolute;
+    bottom: -500px; }
+
+  .margin-up-bottom {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  .border-resultado {
+    border-radius: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: green;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.19); }
+
+  .pie_pagina {
+    background-color: #C5C9B3;
+    height: 50px; }
+
+  .pie_pagina p {
+    position: relative;
+    top: 35%; } }
+@media screen and (min-width: 768px) {
+  #header {
+    height: 70px;
+    font-size: 25px;
+    background: #A80201;
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  #header span {
+    margin: 5px 5px 5px 5px; }
+
+  #header a {
+    text-decoration: none;
+    color: white;
+    float: left; }
+
+  #header a:hover {
+    text-decoration: none;
+    color: white; }
+
+  body {
+    font-family: Lato;
+    width: 100%;
+    overflow-x: hidden;
+    color: black; }
+
+  .bola {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+    padding-top: 4px;
+    background-color: #f8f2f2;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.19); }
+
+  .botones {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px; }
+
+  .logo-rotate {
+    width: 50px;
+    height: 50px;
+    color: white;
+    margin-left: 50px;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out; }
+
+  .logo-rotate:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+  .separador-vacio {
+    height: 70px; }
+
+  .canvas-js {
+    margin-bottom: 100px; }
+
+  .canvas-js-bis {
+    margin-bottom: 50px; }
+
+  .separador_70 {
+    height: 70px; }
+
+  .logo_present {
+    width: 90%;
+    height: 90%; }
+
+  .fixed-bottom {
+    position: absolute;
+    bottom: -500px; }
+
+  .margin-up-bottom {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+  .border-resultado {
+    border-radius: 5px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: green;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2), 0 1px 0 0 rgba(0, 0, 0, 0.19); }
+
+  .pie_pagina {
+    background-color: #C5C9B3;
+    height: 50px; }
+
+  .pie_pagina p {
+    position: relative;
+    top: 35%; } }
+
+/*# sourceMappingURL=euromillones_styles.css.map */
