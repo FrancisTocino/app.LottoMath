@@ -12,3 +12,5 @@ Once the root folder you run 'phonegap serve'
 and with the browser you link to the IP and the Port.
 
 You can also use the ripple plugin for Chrome
+
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
