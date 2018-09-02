@@ -13,4 +13,4 @@ and with the browser you link to the IP and the Port.
 
 You can also use the ripple plugin for Chrome
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![](https://github.com/FrancisTocino/app.lottoMath/blob/master/www/images/ayudahtml0.png)
