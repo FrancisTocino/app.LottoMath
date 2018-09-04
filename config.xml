@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="io.cordova.hellocordova" version="2.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>LottoMath</name>
+    <name>LottoMath 2.0</name>
     <description>Combinaciones ganadoras de los diferentes juegos de loterías mediante el cáculo estadístico</description>
-    <author email="francistosan.pro@gmail.com" href="http://neuronkey.rf.gd/">NEURON KEY</author>
+    <author email="francistosan.pro@gmail.com" href="http://neuronkey.rf.gd/">FRAN TOSÁN</author>
     <content src="index.html" />
     <platform name="android">
         <icon density="ldpi" src="iconset/tunedlotto-logo-ldpi23.png" />
