@@ -80,7 +80,7 @@ function llamada_grafica_primitiva(periodo){
         
         //console.log('=>periodo: '+periodo+ ' =>nombrejuego: '+nombrejuego+ ' =>Id_html: '+id_html);
         $.ajax({
-            url : 'http://www.sugar4brain.com/_tunedlotto/php/calculo_grafica/calculo_gr_primitiva.php',
+            url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_primitiva.php',
             type: 'post',
             data: parametros,
             beforeSend: function () {

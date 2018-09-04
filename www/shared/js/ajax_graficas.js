@@ -111,7 +111,7 @@ function llamada_grafica_primitiva(periodo){
         var id_html = "chartPrimitiva";
         //console.log('=>periodo: '+periodo+ ' =>nombrejuego: '+nombrejuego+ ' =>Id_html: '+id_html);
         $.ajax({
-            url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_grafica/calculo_gr_primitiva.php',
+            url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_primitiva.php',
             type: 'post',
             data: parametros,
             beforeSend: function () {
@@ -124,7 +124,7 @@ function llamada_grafica_primitiva(periodo){
                     $("#resultado_pr").html("Resultado: ");
                     var cadenajson = response.split("&")[0];
                     if (cadenajson.substr(0,1) !== '['){
-                        alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
+                        //alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
                     };
                     var valormedio = response.split("&")[1];
                     pinta_grafica (cadenajson,valormedio,nombrejuego,id_html);
@@ -147,7 +147,7 @@ function llamada_grafica_bonoloto(periodo){
     var id_html = "chartBonoloto";
     //console.log('=>periodo: '+periodo+ ' =>nombrejuego: '+nombrejuego+ ' =>Id_html: '+id_html);
     $.ajax({
-        url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_grafica/calculo_gr_bonoloto.php',
+        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_bonoloto.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -160,7 +160,7 @@ function llamada_grafica_bonoloto(periodo){
                 $("#resultado_bn").html("Resultado: ");
                 var cadenajson = response.split("&")[0];
                 if (cadenajson.substr(0,1) !== '['){
-                        alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
+                        //alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
                     };
                 var valormedio = response.split("&")[1];
                 pinta_grafica (cadenajson,valormedio,nombrejuego,id_html);
@@ -181,7 +181,7 @@ function llamada_grafica_euromillones(periodo){
     var nombrejuego ="Euromillones";
     var id_html = "chartEuromillones";
     $.ajax({
-        url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_grafica/calculo_gr_euromillones.php',
+        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_euromillones.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -194,7 +194,7 @@ function llamada_grafica_euromillones(periodo){
                 $("#resultado_eu").html("Resultado: ");
                 var cadenajson = response.split("&")[0];
                 if (cadenajson.substr(0,1) !== '['){
-                        alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
+                        //alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
                     };
                 var valormedio = response.split("&")[1];
                 pinta_grafica (cadenajson,valormedio,nombrejuego,id_html);
@@ -215,7 +215,7 @@ function llamada_grafica_estrellas(periodo){
     var nombrejuego ="Estrellas";
     var id_html = "chartEstrellas";
     $.ajax({
-        url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_grafica/calculo_gr_estrellas.php',
+        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_estrellas.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -228,7 +228,7 @@ function llamada_grafica_estrellas(periodo){
                 $("#resultado_eu").html("Resultado: ");
                 var cadenajson = response.split("&")[0];
                 if (cadenajson.substr(0,1) !== '['){
-                        alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
+                        //alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
                     };
                 var valormedio = response.split("&")[1];
                 pinta_grafica (cadenajson,valormedio,nombrejuego,id_html);
@@ -249,7 +249,7 @@ function llamada_grafica_elgordo(periodo){
     var nombrejuego ="El Gordo de la Primitiva";
     var id_html = "chartElGordo";
     $.ajax({
-        url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_grafica/calculo_gr_elgordo.php',
+        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_elgordo.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -262,7 +262,7 @@ function llamada_grafica_elgordo(periodo){
                     $("#resultado_eg").html("Resultado: ");
                     var cadenajson = response.split("&")[0];
                     if (cadenajson.substr(0,1) !== '['){
-                        alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
+                        //alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
                     };
                     var valormedio = response.split("&")[1];
                     pinta_grafica (cadenajson,valormedio,nombrejuego,id_html);
@@ -283,7 +283,7 @@ function llamada_grafica_clave(periodo){
     var nombrejuego ="Número Clave";
     var id_html = "chartElGordoClave";
     $.ajax({
-        url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_grafica/calculo_gr_clave.php',
+        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_clave.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -296,7 +296,7 @@ function llamada_grafica_clave(periodo){
                 $("#resultado_eg").html("Resultado: ");
                 var cadenajson = response.split("&")[0];
                 if (cadenajson.substr(0,1) !== '['){
-                        alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
+                        //alert('Conexión Deficiente. Compruebe su cobertura y pulse botón actualizar');
                     };
                 var valormedio = response.split("&")[1];
                 pinta_grafica (cadenajson,valormedio,nombrejuego,id_html);

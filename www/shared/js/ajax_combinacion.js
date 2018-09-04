@@ -7,7 +7,7 @@ function llamada_combinacion_primitiva(timeline_valor){
       $.ajax({
 
 			// URL PRODUCCION
-            url: 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_combinacion/calculo_primitiva.php',
+            url: 'https://lottomath.000webhostapp.com/php/calculo_combinacion/calculo_primitiva.php',
             type: 'post',
 			data: parametros,
 
@@ -38,7 +38,7 @@ function llamada_combinacion_bonoloto(timeline_valor){
 
 		$.ajax({
 
-			url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_combinacion/calculo_bonoloto.php',
+			url : 'https://lottomath.000webhostapp.com/php/calculo_combinacion/calculo_bonoloto.php',
 
 			type: 'post',
 			data: parametros,
@@ -78,7 +78,7 @@ function llamada_combinacion_euromillones(timeline_valor){
 
 		$.ajax({
 
-			url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_combinacion/calculo_euromillones.php',
+			url : 'https://lottomath.000webhostapp.com/php/calculo_combinacion/calculo_euromillones.php',
 
 			type: 'post',
 
@@ -122,7 +122,7 @@ function llamada_combinacion_elgordo(timeline_valor){
 		var parametros = {"timeline":timeline_valor};
 
 		$.ajax({
-			url : 'http://sugar4brain.000webhostapp.com/_tunedlotto/php/calculo_combinacion/calculo_elgordo.php',
+			url : 'https://lottomath.000webhostapp.com/php/calculo_combinacion/calculo_elgordo.php',
 			type: 'post',
 			data: parametros,
 			beforeSend: function () {
