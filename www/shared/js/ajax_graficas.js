@@ -111,7 +111,7 @@ function llamada_grafica_primitiva(periodo){
         var id_html = "chartPrimitiva";
         //console.log('=>periodo: '+periodo+ ' =>nombrejuego: '+nombrejuego+ ' =>Id_html: '+id_html);
         $.ajax({
-            url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_primitiva.php',
+            url : 'http://neuronkey.rf.gd/_tunedlotto/php/calculo_grafica/calculo_gr_primitiva.php',
             type: 'post',
             data: parametros,
             beforeSend: function () {
@@ -147,7 +147,7 @@ function llamada_grafica_bonoloto(periodo){
     var id_html = "chartBonoloto";
     //console.log('=>periodo: '+periodo+ ' =>nombrejuego: '+nombrejuego+ ' =>Id_html: '+id_html);
     $.ajax({
-        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_bonoloto.php',
+        url : 'http://neuronkey.rf.gd/_tunedlotto/php/calculo_grafica/calculo_gr_bonoloto.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -181,7 +181,7 @@ function llamada_grafica_euromillones(periodo){
     var nombrejuego ="Euromillones";
     var id_html = "chartEuromillones";
     $.ajax({
-        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_euromillones.php',
+        url : 'http://neuronkey.rf.gd/_tunedlotto/php/calculo_grafica/calculo_gr_euromillones.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -215,7 +215,7 @@ function llamada_grafica_estrellas(periodo){
     var nombrejuego ="Estrellas";
     var id_html = "chartEstrellas";
     $.ajax({
-        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_estrellas.php',
+        url : 'http://neuronkey.rf.gd/_tunedlotto/php/calculo_grafica/calculo_gr_estrellas.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -249,7 +249,7 @@ function llamada_grafica_elgordo(periodo){
     var nombrejuego ="El Gordo de la Primitiva";
     var id_html = "chartElGordo";
     $.ajax({
-        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_elgordo.php',
+        url : 'http://neuronkey.rf.gd/_tunedlotto/php/calculo_grafica/calculo_gr_elgordo.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
@@ -283,7 +283,7 @@ function llamada_grafica_clave(periodo){
     var nombrejuego ="Número Clave";
     var id_html = "chartElGordoClave";
     $.ajax({
-        url : 'https://lottomath.000webhostapp.com/php/calculo_grafica/calculo_gr_clave.php',
+        url : 'http://neuronkey.rf.gd/_tunedlotto/php/calculo_grafica/calculo_gr_clave.php',
         type: 'post',
         data: parametros,
         beforeSend: function () {
